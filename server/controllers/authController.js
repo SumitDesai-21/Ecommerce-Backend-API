@@ -54,7 +54,7 @@ const getProfile = async(req, res)=>{
         const id = req.user.userId;
         const user = await User.findById(id);
         if(!user){
-            return res.status(404).findByIdjson({success: false, message: "User doesn't exist"});
+            return res.status(404).json({success: false, message: "User doesn't exist"});
         }
         return res.json({success: true, user});
     } catch (error) {
