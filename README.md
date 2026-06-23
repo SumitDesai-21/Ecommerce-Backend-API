@@ -381,5 +381,5 @@ GET /api/orders
 
 ## Author
 
-**Sumit Vitthal Desai**
+**Sumit Desai**
 Intern ID: CITS1120
